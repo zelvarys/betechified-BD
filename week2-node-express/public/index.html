@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 2 API</title>
+    <style>
+        body {
+          font-family: sans-serif;
+          padding: 2rem;
+          background: #f4f4f4;
+        }
+        h1 {
+          color: #333;
+        }
+        code {
+          background: #e0e0e0;
+          padding: 0.2rem 0.4rem;
+          border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Week 2 API!</h1>
+    <p>This is the static HTML page served at the root.</p>
+    <p>The API endpoints are:</p>
+    <ul>
+        <li><code>GET /</code> - This page</li>
+        <li><code>POST /user</code> - Send JSON <code>{ "name": "Alex", "email": "alex@test.com" }</code></li>
+        <li><code>GET /user/:id</code> - Get user profile by ID</li>
+    </ul>
+</body>
+</html>
